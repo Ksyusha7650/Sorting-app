@@ -122,7 +122,7 @@
     <value>Open Sans, 18pt</value>
   </data>
   <data name="back.Location" type="System.Drawing.Point, System.Drawing">
-    <value>271, 582</value>
+    <value>279, 590</value>
   </data>
   <data name="back.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 70</value>
@@ -144,13 +144,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;back.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="further.Font" type="System.Drawing.Font, System.Drawing">
     <value>Open Sans, 18pt</value>
   </data>
   <data name="further.Location" type="System.Drawing.Point, System.Drawing">
-    <value>758, 582</value>
+    <value>766, 590</value>
   </data>
   <data name="further.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 70</value>
@@ -171,7 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;further.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -254,6 +254,156 @@
   </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button12.Name" xml:space="preserve">
+    <value>button12</value>
+  </data>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 195</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 168</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>amountElementsSequence</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button7" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button9" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button6" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button8" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button3" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button4" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button10" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button11" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button12" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button5" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="button7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -555,36 +705,6 @@
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 195</value>
-  </data>
-  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 168</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>amountElementsSequence</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button7" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button9" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button6" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button8" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button3" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button4" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button10" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button11" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button12" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button5" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="deleteButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -614,6 +734,249 @@
   </data>
   <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Name" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Parent" xml:space="preserve">
+    <value>amountElementsSequence</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="amountElementsSequence.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="amountElementsSequence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 32</value>
+  </data>
+  <data name="amountElementsSequence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 544</value>
+  </data>
+  <data name="amountElementsSequence.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;amountElementsSequence.Name" xml:space="preserve">
+    <value>amountElementsSequence</value>
+  </data>
+  <data name="&gt;&gt;amountElementsSequence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;amountElementsSequence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;amountElementsSequence.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Name" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;randomFilling.Name" xml:space="preserve">
+    <value>randomFilling</value>
+  </data>
+  <data name="&gt;&gt;randomFilling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;randomFilling.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;randomFilling.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;handlyFilling.Name" xml:space="preserve">
+    <value>handlyFilling</value>
+  </data>
+  <data name="&gt;&gt;handlyFilling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;handlyFilling.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;handlyFilling.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Name" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;randomBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="inputSequenceChoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="inputSequenceChoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 538</value>
+  </data>
+  <data name="inputSequenceChoice.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Name" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.Parent" xml:space="preserve">
+    <value>amountElementsSequence</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceChoice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;inputElements.Name" xml:space="preserve">
+    <value>inputElements</value>
+  </data>
+  <data name="&gt;&gt;inputElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputElements.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;inputElements.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tests.Name" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;tests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tests.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;tests.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;amountInputingElements.Name" xml:space="preserve">
+    <value>amountInputingElements</value>
+  </data>
+  <data name="&gt;&gt;amountInputingElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;amountInputingElements.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;amountInputingElements.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;deleteElements.Name" xml:space="preserve">
+    <value>deleteElements</value>
+  </data>
+  <data name="&gt;&gt;deleteElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteElements.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;deleteElements.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Name" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableNumbers.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button13" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button14" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button15" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button16" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button17" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button18" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button19" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button20" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button21" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="inputSequenceHandly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="inputSequenceHandly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 3</value>
+  </data>
+  <data name="inputSequenceHandly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 538</value>
+  </data>
+  <data name="inputSequenceHandly.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="inputSequenceHandly.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Name" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;inputSequenceHandly.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="inputElements.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -653,6 +1016,75 @@
   </data>
   <data name="&gt;&gt;inputElements.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button23.Name" xml:space="preserve">
+    <value>button23</value>
+  </data>
+  <data name="&gt;&gt;button23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button23.Parent" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;button23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button24.Name" xml:space="preserve">
+    <value>button24</value>
+  </data>
+  <data name="&gt;&gt;button24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button24.Parent" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;button24.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tests.Location" type="System.Drawing.Point, System.Drawing">
+    <value>756, 346</value>
+  </data>
+  <data name="tests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 286</value>
+  </data>
+  <data name="tests.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;tests.Name" xml:space="preserve">
+    <value>tests</value>
+  </data>
+  <data name="&gt;&gt;tests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tests.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;tests.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="textBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -783,27 +1215,6 @@
   <data name="&gt;&gt;button24.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tests.Location" type="System.Drawing.Point, System.Drawing">
-    <value>756, 346</value>
-  </data>
-  <data name="tests.Size" type="System.Drawing.Size, System.Drawing">
-    <value>372, 286</value>
-  </data>
-  <data name="tests.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;tests.Name" xml:space="preserve">
-    <value>tests</value>
-  </data>
-  <data name="&gt;&gt;tests.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tests.Parent" xml:space="preserve">
-    <value>inputSequenceHandly</value>
-  </data>
-  <data name="&gt;&gt;tests.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -902,6 +1313,156 @@
   </data>
   <data name="tableNumbers.ColumnCount" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button13.Name" xml:space="preserve">
+    <value>button13</value>
+  </data>
+  <data name="&gt;&gt;button13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button13.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button14.Name" xml:space="preserve">
+    <value>button14</value>
+  </data>
+  <data name="&gt;&gt;button14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button14.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button15.Name" xml:space="preserve">
+    <value>button15</value>
+  </data>
+  <data name="&gt;&gt;button15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button15.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button16.Name" xml:space="preserve">
+    <value>button16</value>
+  </data>
+  <data name="&gt;&gt;button16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button16.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button17.Name" xml:space="preserve">
+    <value>button17</value>
+  </data>
+  <data name="&gt;&gt;button17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button17.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button18.Name" xml:space="preserve">
+    <value>button18</value>
+  </data>
+  <data name="&gt;&gt;button18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button18.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button19.Name" xml:space="preserve">
+    <value>button19</value>
+  </data>
+  <data name="&gt;&gt;button19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button19.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button20.Name" xml:space="preserve">
+    <value>button20</value>
+  </data>
+  <data name="&gt;&gt;button20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button20.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button21.Name" xml:space="preserve">
+    <value>button21</value>
+  </data>
+  <data name="&gt;&gt;button21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button21.Parent" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 170</value>
+  </data>
+  <data name="tableNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="tableNumbers.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 235</value>
+  </data>
+  <data name="tableNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Name" xml:space="preserve">
+    <value>tableNumbers</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.Parent" xml:space="preserve">
+    <value>inputSequenceHandly</value>
+  </data>
+  <data name="&gt;&gt;tableNumbers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableNumbers.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button13" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button14" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button15" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button16" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button17" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button18" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button19" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button20" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button21" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1233,36 +1794,6 @@
   <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="tableNumbers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 170</value>
-  </data>
-  <data name="tableNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="tableNumbers.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableNumbers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>458, 235</value>
-  </data>
-  <data name="tableNumbers.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;tableNumbers.Name" xml:space="preserve">
-    <value>tableNumbers</value>
-  </data>
-  <data name="&gt;&gt;tableNumbers.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableNumbers.Parent" xml:space="preserve">
-    <value>inputSequenceHandly</value>
-  </data>
-  <data name="&gt;&gt;tableNumbers.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tableNumbers.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button13" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button14" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button15" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button16" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button17" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button18" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="button19" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="button20" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button21" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1292,33 +1823,6 @@
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="inputSequenceHandly.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans, 12pt</value>
-  </data>
-  <data name="inputSequenceHandly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 3</value>
-  </data>
-  <data name="inputSequenceHandly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1028, 538</value>
-  </data>
-  <data name="inputSequenceHandly.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="inputSequenceHandly.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceHandly.Name" xml:space="preserve">
-    <value>inputSequenceHandly</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceHandly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceHandly.Parent" xml:space="preserve">
-    <value>inputSequenceChoice</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceHandly.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="randomFilling.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1434,6 +1938,75 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;Diapazon1.Name" xml:space="preserve">
+    <value>Diapazon1</value>
+  </data>
+  <data name="&gt;&gt;Diapazon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Diapazon1.Parent" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;Diapazon1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Diapazon2.Name" xml:space="preserve">
+    <value>Diapazon2</value>
+  </data>
+  <data name="&gt;&gt;Diapazon2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Diapazon2.Parent" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;Diapazon2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="randomBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 244</value>
+  </data>
+  <data name="randomBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 81</value>
+  </data>
+  <data name="randomBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Name" xml:space="preserve">
+    <value>randomBox</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;randomBox.Parent" xml:space="preserve">
+    <value>inputSequenceChoice</value>
+  </data>
+  <data name="&gt;&gt;randomBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="Diapazon1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1533,628 +2106,313 @@
   <data name="&gt;&gt;Diapazon2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="randomBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 244</value>
+  <data name="&gt;&gt;lastWindow.Name" xml:space="preserve">
+    <value>lastWindow</value>
   </data>
-  <data name="randomBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>448, 81</value>
-  </data>
-  <data name="randomBox.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;randomBox.Name" xml:space="preserve">
-    <value>randomBox</value>
-  </data>
-  <data name="&gt;&gt;randomBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;lastWindow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;randomBox.Parent" xml:space="preserve">
-    <value>inputSequenceChoice</value>
-  </data>
-  <data name="&gt;&gt;randomBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="inputSequenceChoice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="inputSequenceChoice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 538</value>
-  </data>
-  <data name="inputSequenceChoice.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceChoice.Name" xml:space="preserve">
-    <value>inputSequenceChoice</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceChoice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceChoice.Parent" xml:space="preserve">
-    <value>amountElementsSequence</value>
-  </data>
-  <data name="&gt;&gt;inputSequenceChoice.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="amountElementsSequence.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans, 12pt</value>
-  </data>
-  <data name="amountElementsSequence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 32</value>
-  </data>
-  <data name="amountElementsSequence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1034, 544</value>
-  </data>
-  <data name="amountElementsSequence.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;amountElementsSequence.Name" xml:space="preserve">
-    <value>amountElementsSequence</value>
-  </data>
-  <data name="&gt;&gt;amountElementsSequence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;amountElementsSequence.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;amountElementsSequence.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Increasing sorting</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Decreasing sorting</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>54, 19</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 35</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="textBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>842, 307</value>
-  </data>
-  <data name="textBox2.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 56</value>
-  </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
-  </data>
-  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 116</value>
-  </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 46</value>
-  </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>Bubble sort</value>
-  </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 308</value>
-  </data>
-  <data name="textBox3.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 56</value>
-  </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans, 18pt</value>
-  </data>
-  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>517, 59</value>
-  </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 41</value>
-  </data>
-  <data name="label20.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>Permutations</value>
-  </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
-  </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 317</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 46</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Merge sort</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textBox9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 110</value>
-  </data>
-  <data name="textBox9.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 56</value>
-  </data>
-  <data name="textBox9.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="textBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
-    <value>textBox9</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
-  </data>
-  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 249</value>
-  </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 46</value>
-  </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>Selection sort</value>
-  </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans, 18pt</value>
-  </data>
-  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>783, 59</value>
-  </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 41</value>
-  </data>
-  <data name="label19.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>Comparisons</value>
-  </data>
-  <data name="&gt;&gt;label19.Name" xml:space="preserve">
-    <value>label19</value>
-  </data>
-  <data name="&gt;&gt;label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="textBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>842, 242</value>
-  </data>
-  <data name="textBox4.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 56</value>
-  </data>
-  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="textBox8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>842, 107</value>
-  </data>
-  <data name="textBox8.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 56</value>
-  </data>
-  <data name="textBox8.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="textBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
-    <value>textBox8</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="textBox5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 243</value>
-  </data>
-  <data name="textBox5.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 56</value>
-  </data>
-  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="textBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="textBox7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 178</value>
-  </data>
-  <data name="textBox7.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 56</value>
-  </data>
-  <data name="textBox7.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="textBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
-    <value>textBox7</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
-  </data>
-  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 187</value>
-  </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 46</value>
-  </data>
-  <data name="label17.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>Insert sort</value>
-  </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="textBox6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei, 25pt</value>
-  </data>
-  <data name="textBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>842, 178</value>
-  </data>
-  <data name="textBox6.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="textBox6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 56</value>
-  </data>
-  <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="textBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="analysis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 63</value>
-  </data>
-  <data name="analysis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1034, 495</value>
-  </data>
-  <data name="analysis.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;analysis.Name" xml:space="preserve">
-    <value>analysis</value>
-  </data>
-  <data name="&gt;&gt;analysis.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;analysis.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lastWindow.Parent" xml:space="preserve">
     <value>bubbleSortPanel</value>
   </data>
-  <data name="&gt;&gt;analysis.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lastWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cMerge.Name" xml:space="preserve">
+    <value>cMerge</value>
+  </data>
+  <data name="&gt;&gt;cMerge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMerge.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;cMerge.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pMerge.Name" xml:space="preserve">
+    <value>pMerge</value>
+  </data>
+  <data name="&gt;&gt;pMerge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pMerge.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;pMerge.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cSelection.Name" xml:space="preserve">
+    <value>cSelection</value>
+  </data>
+  <data name="&gt;&gt;cSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cSelection.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;cSelection.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pSelection.Name" xml:space="preserve">
+    <value>pSelection</value>
+  </data>
+  <data name="&gt;&gt;pSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pSelection.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;pSelection.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cInsert.Name" xml:space="preserve">
+    <value>cInsert</value>
+  </data>
+  <data name="&gt;&gt;cInsert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cInsert.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;cInsert.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pInsert.Name" xml:space="preserve">
+    <value>pInsert</value>
+  </data>
+  <data name="&gt;&gt;pInsert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pInsert.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;pInsert.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;outputSequnceUnsorted.Name" xml:space="preserve">
+    <value>outputSequnceUnsorted</value>
+  </data>
+  <data name="&gt;&gt;outputSequnceUnsorted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputSequnceUnsorted.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;outputSequnceUnsorted.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cBubble.Name" xml:space="preserve">
+    <value>cBubble</value>
+  </data>
+  <data name="&gt;&gt;cBubble.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBubble.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;cBubble.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pBubble.Name" xml:space="preserve">
+    <value>pBubble</value>
+  </data>
+  <data name="&gt;&gt;pBubble.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBubble.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;pBubble.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;outputBubbleSorted.Name" xml:space="preserve">
+    <value>outputBubbleSorted</value>
+  </data>
+  <data name="&gt;&gt;outputBubbleSorted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputBubbleSorted.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;outputBubbleSorted.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="bubbleSortPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="bubbleSortPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 12</value>
+  </data>
+  <data name="bubbleSortPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 564</value>
+  </data>
+  <data name="bubbleSortPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;bubbleSortPanel.Name" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;bubbleSortPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bubbleSortPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bubbleSortPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>lastWindow</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>lastWindow</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button22.Name" xml:space="preserve">
+    <value>button22</value>
+  </data>
+  <data name="&gt;&gt;button22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button22.Parent" xml:space="preserve">
+    <value>lastWindow</value>
+  </data>
+  <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lastWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 212</value>
+  </data>
+  <data name="lastWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 286</value>
+  </data>
+  <data name="lastWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lastWindow.Name" xml:space="preserve">
+    <value>lastWindow</value>
+  </data>
+  <data name="&gt;&gt;lastWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastWindow.Parent" xml:space="preserve">
+    <value>bubbleSortPanel</value>
+  </data>
+  <data name="&gt;&gt;lastWindow.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -2247,27 +2505,6 @@
   <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lastWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 212</value>
-  </data>
-  <data name="lastWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 286</value>
-  </data>
-  <data name="lastWindow.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;lastWindow.Name" xml:space="preserve">
-    <value>lastWindow</value>
-  </data>
-  <data name="&gt;&gt;lastWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastWindow.Parent" xml:space="preserve">
-    <value>bubbleSortPanel</value>
-  </data>
-  <data name="&gt;&gt;lastWindow.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="cMerge.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -2305,7 +2542,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;cMerge.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="pMerge.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2344,7 +2581,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;pMerge.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="label15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2377,7 +2614,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2410,7 +2647,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="cSelection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2449,7 +2686,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;cSelection.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="pSelection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2488,7 +2725,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;pSelection.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2521,7 +2758,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="cInsert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2560,7 +2797,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;cInsert.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="pInsert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2599,7 +2836,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;pInsert.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2632,7 +2869,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2665,7 +2902,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="outputSequnceUnsorted.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2704,7 +2941,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;outputSequnceUnsorted.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="cBubble.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2743,7 +2980,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;cBubble.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2773,7 +3010,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="pBubble.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2812,7 +3049,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;pBubble.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2842,7 +3079,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>16</value>
   </data>
   <data name="outputBubbleSorted.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2881,7 +3118,7 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;outputBubbleSorted.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2911,30 +3148,600 @@
     <value>bubbleSortPanel</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>18</value>
   </data>
-  <data name="bubbleSortPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Open Sans, 12pt</value>
+  <data name="buttonSortArray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 35pt</value>
   </data>
-  <data name="bubbleSortPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 12</value>
+  <data name="buttonSortArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 29</value>
   </data>
-  <data name="bubbleSortPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1031, 564</value>
+  <data name="buttonSortArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 101</value>
   </data>
-  <data name="bubbleSortPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="buttonSortArray.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
-  <data name="&gt;&gt;bubbleSortPanel.Name" xml:space="preserve">
-    <value>bubbleSortPanel</value>
+  <data name="buttonSortArray.Text" xml:space="preserve">
+    <value>Sort</value>
   </data>
-  <data name="&gt;&gt;bubbleSortPanel.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonSortArray.Name" xml:space="preserve">
+    <value>buttonSortArray</value>
+  </data>
+  <data name="&gt;&gt;buttonSortArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSortArray.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;buttonSortArray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chosenTypeOfArray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 20pt</value>
+  </data>
+  <data name="chosenTypeOfArray.Items" xml:space="preserve">
+    <value>Random array</value>
+  </data>
+  <data name="chosenTypeOfArray.Items1" xml:space="preserve">
+    <value>Decreasing array</value>
+  </data>
+  <data name="chosenTypeOfArray.Items2" xml:space="preserve">
+    <value>Semisorted array</value>
+  </data>
+  <data name="chosenTypeOfArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 42</value>
+  </data>
+  <data name="chosenTypeOfArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 53</value>
+  </data>
+  <data name="chosenTypeOfArray.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="chosenTypeOfArray.Text" xml:space="preserve">
+    <value>Choose type of array</value>
+  </data>
+  <data name="&gt;&gt;chosenTypeOfArray.Name" xml:space="preserve">
+    <value>chosenTypeOfArray</value>
+  </data>
+  <data name="&gt;&gt;chosenTypeOfArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chosenTypeOfArray.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;chosenTypeOfArray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mergeC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="mergeC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="mergeC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="mergeC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 459</value>
+  </data>
+  <data name="mergeC.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="mergeC.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="mergeC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 63</value>
+  </data>
+  <data name="mergeC.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="mergeC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mergeC.Name" xml:space="preserve">
+    <value>mergeC</value>
+  </data>
+  <data name="&gt;&gt;mergeC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mergeC.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;mergeC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 269</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 46</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Bubble sort</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mergeP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="mergeP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="mergeP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="mergeP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 460</value>
+  </data>
+  <data name="mergeP.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="mergeP.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="mergeP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 63</value>
+  </data>
+  <data name="mergeP.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="mergeP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mergeP.Name" xml:space="preserve">
+    <value>mergeP</value>
+  </data>
+  <data name="&gt;&gt;mergeP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mergeP.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;mergeP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 18pt</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 205</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 41</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Permutations</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 461</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 46</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Merge sort</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bubbleP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="bubbleP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="bubbleP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="bubbleP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 262</value>
+  </data>
+  <data name="bubbleP.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="bubbleP.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="bubbleP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 63</value>
+  </data>
+  <data name="bubbleP.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="bubbleP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;bubbleP.Name" xml:space="preserve">
+    <value>bubbleP</value>
+  </data>
+  <data name="&gt;&gt;bubbleP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bubbleP.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;bubbleP.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 395</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 46</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Selection sort</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 18pt</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>795, 205</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 41</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Comparisons</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="selectionC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="selectionC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="selectionC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="selectionC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 394</value>
+  </data>
+  <data name="selectionC.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="selectionC.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="selectionC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 63</value>
+  </data>
+  <data name="selectionC.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="selectionC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;selectionC.Name" xml:space="preserve">
+    <value>selectionC</value>
+  </data>
+  <data name="&gt;&gt;selectionC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectionC.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;selectionC.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="bubbleC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="bubbleC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="bubbleC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="bubbleC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 259</value>
+  </data>
+  <data name="bubbleC.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="bubbleC.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="bubbleC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 63</value>
+  </data>
+  <data name="bubbleC.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="bubbleC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;bubbleC.Name" xml:space="preserve">
+    <value>bubbleC</value>
+  </data>
+  <data name="&gt;&gt;bubbleC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bubbleC.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;bubbleC.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="selectionP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="selectionP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="selectionP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="selectionP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 395</value>
+  </data>
+  <data name="selectionP.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="selectionP.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="selectionP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 63</value>
+  </data>
+  <data name="selectionP.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="selectionP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;selectionP.Name" xml:space="preserve">
+    <value>selectionP</value>
+  </data>
+  <data name="&gt;&gt;selectionP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectionP.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;selectionP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="insertP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="insertP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="insertP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="insertP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 330</value>
+  </data>
+  <data name="insertP.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="insertP.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="insertP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 63</value>
+  </data>
+  <data name="insertP.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="insertP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;insertP.Name" xml:space="preserve">
+    <value>insertP</value>
+  </data>
+  <data name="&gt;&gt;insertP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;insertP.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;insertP.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans Semibold, 19.8000011pt, style=Bold</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 330</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 46</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Insert sort</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="insertC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="insertC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei, 25pt</value>
+  </data>
+  <data name="insertC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="insertC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 330</value>
+  </data>
+  <data name="insertC.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="insertC.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="insertC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 63</value>
+  </data>
+  <data name="insertC.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="insertC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;insertC.Name" xml:space="preserve">
+    <value>insertC</value>
+  </data>
+  <data name="&gt;&gt;insertC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;insertC.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;insertC.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="analysis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 2</value>
+  </data>
+  <data name="analysis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1147, 658</value>
+  </data>
+  <data name="analysis.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;analysis.Name" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;analysis.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;bubbleSortPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;analysis.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;bubbleSortPanel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;analysis.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
