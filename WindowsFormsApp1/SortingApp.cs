@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 enum TYPE_INPUT
 {
@@ -24,6 +18,12 @@ namespace WindowsFormsApp1
         int indexPage, amountElements, currentAmountElements;
         string textAmountElements, textSequenceElements, textSortedBubble;
         TYPE_INPUT type;
+       private const int DEFAULT_TYPE = -1;
+       private const int RANDOM = 0;
+       private const int DECREASED = 1;
+       private const int SEMISORTED = 2;
+       public int permMerge = 0;
+       public int compMerge = 0;
 
         public SortingApp()
         {
@@ -53,6 +53,7 @@ namespace WindowsFormsApp1
             tests.Hide();
             toolTip1.SetToolTip(this.randomBox, "Choose range of random.");
             tipAmountElements.SetToolTip(this.amountElementsSequence, "Input amount from 1 to 20");
+            analysis.Hide();
         }
 
         private void previousButton(object sender, EventArgs e)
@@ -73,14 +74,6 @@ namespace WindowsFormsApp1
                     back.Visible = false;
             }
             else back.Visible = false;
-        }
-
-        private void buttonYesClick(object sender, EventArgs e)
-        {
-            this.Controls.Clear();
-            this.InitializeComponent();
-            this.Form1_Load(sender, e);
-
         }
 
         private void nextButton(object sender, EventArgs e)
@@ -111,10 +104,13 @@ namespace WindowsFormsApp1
                 {
                     elementsCopied.Add(elements[i]);
                 }
-                bubbleSort();
-                insertSort();
-                selectionSort();
-                mergeSort();
+                bubbleSort(elements, pBubble, cBubble);
+                insertSort(elements, pInsert, cInsert);
+                selectionSort(elements, pSelection, cSelection);
+                int[] arr = new int[elements.Count];
+                changeType(elements, arr);
+                arr = MergeSort(arr, pMerge, cMerge);
+                //mergeSort(elements, pMerge, cMerge);
             }
 
         }
@@ -126,12 +122,72 @@ namespace WindowsFormsApp1
 
         private void doAnalysisClick(object sender, EventArgs e)
         {
+            this.Controls.Clear();
+            this.Form1_Load(sender, e);
+            this.InitializeComponent();
             analysis.Show();
         }
 
-        private void buttonNOClick(object sender, EventArgs e)
+
+        private void buttonSort(object sender, EventArgs e)
         {
-            Close();
+            int selectedIndex = chosenTypeOfArray.SelectedIndex;
+            List<int> tempInt = new List<int>();
+            List<int> copyTempInt = new List<int>();
+            int tempAmountElements = Decimal.ToInt32(numericAmount.Value);
+            compMerge = 0;
+            permMerge = 0;
+            resultText.Text = "The most optimal sort is";
+            switch (selectedIndex)
+            {
+                case RANDOM:
+                    {
+                        Random randomElements = new Random();
+                        for (int index = 0; index < tempAmountElements; index++)
+                        {
+                            tempInt.Add(randomElements.Next(0, 100));
+                            copyTempInt.Add(tempInt[index]);
+                        }
+                        break;
+                    }
+                case DECREASED:
+                    {
+                        Random randomElements = new Random();
+                        for (int index = 0; index < tempAmountElements; index++)
+                        {
+                            tempInt.Add(randomElements.Next(0, 100));
+                            copyTempInt.Add(tempInt[index]);
+                        }
+                        copyTempInt.Sort();
+                        copyTempInt.Reverse();
+                        break;
+                    }
+            }
+
+            if(tempInt.Count > 1)
+            {
+                bubbleSort(tempInt, bubbleP, bubbleC);
+                for (int index = 0; index < tempAmountElements; index++)
+                {
+                    tempInt[index] = copyTempInt[index];
+                }
+                insertSort(tempInt, insertP, insertC);
+                for (int index = 0; index < tempAmountElements; index++)
+                {
+                    tempInt[index] = copyTempInt[index];
+                }
+                selectionSort(tempInt, selectionP, selectionC);
+                for (int index = 0; index < tempAmountElements; index++)
+                {
+                    tempInt[index] = copyTempInt[index];
+                }
+                int[] arr = new int[tempAmountElements];
+                changeType(tempInt, arr);
+                arr = MergeSort(arr, mergeP, mergeC);
+                int resultSort = Int32.Parse(mergeP.Text) + Int32.Parse(mergeC.Text);
+                resultText.Text += " merge sort: " + resultSort.ToString();
+            }
+           
         }
 
         private void button_Click(object sender, EventArgs e)
@@ -185,6 +241,53 @@ namespace WindowsFormsApp1
             }
         }
 
+
+         Int32[] Merge(Int32[] arr1, Int32[] arr2)
+        {
+            Int32 ptr1 = 0, ptr2 = 0;
+            Int32[] merged = new Int32[arr1.Length + arr2.Length];
+
+            for (Int32 i = 0; i < merged.Length; ++i)
+            {
+                if (ptr1 < arr1.Length && ptr2 < arr2.Length)
+                {
+                    compMerge++;
+                    merged[i] = arr1[ptr1] > arr2[ptr2] ? arr2[ptr2++] : arr1[ptr1++];
+                    permMerge++;
+                }
+                else
+                {
+                    compMerge++;
+                    merged[i] = ptr2 < arr2.Length ? arr2[ptr2++] : arr1[ptr1++];
+                    permMerge++;
+                }
+            }
+            return merged;
+        }
+
+         Int32[] MergeSort(Int32[] array, TextBox cMerge, TextBox pMerge)
+        {
+            
+            if (array.Length == 1)
+            {
+                compMerge++;
+                return array;
+            }
+            Int32 middle = array.Length / 2;
+            cMerge.Text = compMerge.ToString();
+            pMerge.Text = permMerge.ToString();
+            return Merge(MergeSort(array.Take(middle).ToArray(), cMerge, pMerge),
+                MergeSort(array.Skip(middle).ToArray(), cMerge, pMerge));
+        }
+
+        private void changeType(List<int> el, Int32[] array)
+        {
+            for (int i = 0; i < el.Count; i++)
+            {
+                array[i] = el[i];
+            }
+        }
+
         private void chosenTypeOfInput(object sender, EventArgs e)
         {
             if (handlyFilling.Checked)
@@ -226,7 +329,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void bubbleSort()
+        private void bubbleSort(List <int> elements, TextBox pBubble, TextBox cBubble)
         {
             int temp = 0;
             int perm = 0;
@@ -260,7 +363,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void insertSort()
+        private void insertSort(List<int> elements, TextBox pInsert, TextBox cInsert)
         {
             int perm = 0;
             int compar = 0;
@@ -290,7 +393,7 @@ namespace WindowsFormsApp1
             returnSequence();
         }
 
-        void selectionSort()
+        void selectionSort(List<int> elements, TextBox pSelection, TextBox cSelection)
         {
             int temp = 0;
             int perm = 0;
@@ -320,73 +423,71 @@ namespace WindowsFormsApp1
             returnSequence();
         }
 
-        private void merge(int leftBorder, int rightBorder, int secondArrInd)
-        {
-           // if (leftBorder < rightBorder)
-           // {
-           //     int[] tempArray = new int[rightBorder - leftBorder + 1];
-           //
-           //     int aArrInd = 0;
-           //     int bArrInd = secondArrInd - leftBorder;
-           //     int tempInd = 0;
-           //
-           //     for (int i = leftBorder; i < rightBorder + 1; i++)
-           //     {
-           //         if (aArrInd < (secondArrInd - leftBorder) && bArrInd <= (secondArrInd - leftBorder))
-           //         {
-           //             if (elements[aArrInd] < elements[bArrInd])
-           //             {
-           //                 tempArray[tempInd] = elements[i + aArrInd];
-           //                 aArrInd++;
-           //             }
-           //             else
-           //             {
-           //                 tempArray[tempInd] = elements[i + bArrInd];
-           //                 bArrInd++;
-           //             }
-           //         }
-           //         else
-           //         {
-           //             if (aArrInd < (secondArrInd - leftBorder))
-           //             {
-           //                 tempArray[tempInd] = elements[i + aArrInd];
-           //                 aArrInd++;
-           //             }
-           //             else
-           //             {
-           //                 tempArray[tempInd] = elements[i + bArrInd];
-           //                 bArrInd++;
-           //             }
-           //         }
-           //         tempInd++;
-           //     }
-           //     tempInd = 0;
-           //     for (int i = leftBorder; i < rightBorder + 1; i++)
-           //     {
-           //         elements[i] = tempArray[tempInd];
-           //         tempInd++;
-           //     }
-           //     //delete[] tempArray;
-           // }
-        }
+        //private void merge(List<int> elements, int leftBorder, int rightBorder, int secondArrInd)
+        //{
+        //    if (leftBorder < rightBorder)
+        //    {
+        //        int[] tempArray = new int[rightBorder - leftBorder + 1];
 
-            private void mergeDivide(int left, int right)
-            {
-                if (left + 1 >= right) return;
-                else
-                {
-                    int mid = (left + right) / 2;
-                    mergeDivide(left, mid);
-                    mergeDivide(mid, right);
-                    merge(left, right, mid);
-                }
-            }
-            private void mergeSort()
-            {
-                mergeDivide(0, elements.Count);
-            cMerge.Text = cSelection.Text;
-            pMerge.Text = pBubble.Text;
-            }
+        //        int aArrInd = 0;
+        //        int bArrInd = secondArrInd - leftBorder;
+        //        int tempInd = 0;
+        //        for (int i = leftBorder; i < rightBorder + 1; i++)
+        //        {
+        //            tempArray[tempInd] = elements[i];
+        //            tempInd++;
+        //        }
+
+        //        for (int i = leftBorder; i < rightBorder + 1; i++)
+        //        {
+        //            if (aArrInd < secondArrInd && bArrInd <= rightBorder)
+        //            {
+        //                if (tempArray[aArrInd] < tempArray[bArrInd])
+        //                {
+        //                    elements[i] = tempArray[aArrInd];
+        //                    aArrInd++;
+        //                }
+        //                else
+        //                {
+        //                    elements[i] = tempArray[bArrInd];
+        //                    bArrInd++;
+        //                }
+        //            }
+        //            else
+        //            {
+        //                if (aArrInd < secondArrInd)
+        //                {
+        //                    elements[i] = tempArray[aArrInd];
+        //                    aArrInd++;
+        //                }
+        //                else
+        //                {
+        //                    elements[i] = tempArray[bArrInd];
+        //                    bArrInd++;
+        //                }
+        //            }
+        //        }
+        //        //delete[] tempArray;
+        //    }
+        //}
+
+        //private void mergeDivide(List<int> elements,int left, int right)
+        //{
+        //    if (left < right)
+        //    {
+        //        int mid = left + (left + right) / 2;
+        //        mergeDivide(elements,left, mid);
+        //        mergeDivide(elements,mid + 1, right);
+        //        merge(elements,left, right, mid+1);
+        //    }
+        //}
+    
+        //private void mergeSort(List<int> elements, TextBox pMerge, TextBox cMerge)
+        //{
+        //    mergeDivide(elements, 0, elements.Count-1);
+        //    cMerge.Text = cSelection.Text + selectionC.Text;
+        //    pMerge.Text = pBubble.Text + bubbleP.Text;
+        //}
 
 
 

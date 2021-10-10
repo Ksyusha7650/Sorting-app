@@ -3150,6 +3150,90 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 20pt</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 132</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 46</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Amount of array</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 136</value>
+  </data>
+  <data name="numericAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 35</value>
+  </data>
+  <data name="numericAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;numericAmount.Name" xml:space="preserve">
+    <value>numericAmount</value>
+  </data>
+  <data name="&gt;&gt;numericAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericAmount.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;numericAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resultText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resultText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 20pt</value>
+  </data>
+  <data name="resultText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 573</value>
+  </data>
+  <data name="resultText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 46</value>
+  </data>
+  <data name="resultText.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="resultText.Text" xml:space="preserve">
+    <value>The most optimal sort is</value>
+  </data>
+  <data name="&gt;&gt;resultText.Name" xml:space="preserve">
+    <value>resultText</value>
+  </data>
+  <data name="&gt;&gt;resultText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultText.Parent" xml:space="preserve">
+    <value>analysis</value>
+  </data>
+  <data name="&gt;&gt;resultText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="buttonSortArray.Font" type="System.Drawing.Font, System.Drawing">
     <value>Open Sans, 35pt</value>
   </data>
@@ -3175,7 +3259,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;buttonSortArray.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="chosenTypeOfArray.Font" type="System.Drawing.Font, System.Drawing">
     <value>Open Sans, 20pt</value>
@@ -3211,7 +3295,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;chosenTypeOfArray.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="mergeC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3250,7 +3334,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;mergeC.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3283,7 +3367,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="mergeP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3322,7 +3406,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;mergeP.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3355,7 +3439,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3388,7 +3472,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="bubbleP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3427,7 +3511,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;bubbleP.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3460,7 +3544,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3493,7 +3577,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="selectionC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3532,7 +3616,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;selectionC.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="bubbleC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3571,7 +3655,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;bubbleC.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="selectionP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3610,7 +3694,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;selectionP.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="insertP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3649,7 +3733,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;insertP.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3682,7 +3766,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="insertC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3721,7 +3805,7 @@
     <value>analysis</value>
   </data>
   <data name="&gt;&gt;insertC.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="analysis.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 2</value>

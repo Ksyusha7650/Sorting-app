@@ -102,24 +102,28 @@
             this.label7 = new System.Windows.Forms.Label();
             this.outputBubbleSorted = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.analysis = new System.Windows.Forms.Panel();
+            this.buttonSortArray = new System.Windows.Forms.Button();
+            this.chosenTypeOfArray = new System.Windows.Forms.ComboBox();
+            this.mergeC = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.mergeP = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.bubbleP = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.selectionC = new System.Windows.Forms.TextBox();
+            this.bubbleC = new System.Windows.Forms.TextBox();
+            this.selectionP = new System.Windows.Forms.TextBox();
+            this.insertP = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.insertC = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tipAmountElements = new System.Windows.Forms.ToolTip(this.components);
-            this.analysis = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.resultText = new System.Windows.Forms.Label();
+            this.numericAmount = new System.Windows.Forms.NumericUpDown();
+            this.label21 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.amountElementsSequence.SuspendLayout();
             this.inputSequenceChoice.SuspendLayout();
@@ -132,6 +136,7 @@
             this.bubbleSortPanel.SuspendLayout();
             this.lastWindow.SuspendLayout();
             this.analysis.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // back
@@ -557,7 +562,6 @@
             // 
             // bubbleSortPanel
             // 
-            this.bubbleSortPanel.Controls.Add(this.analysis);
             this.bubbleSortPanel.Controls.Add(this.lastWindow);
             this.bubbleSortPanel.Controls.Add(this.cMerge);
             this.bubbleSortPanel.Controls.Add(this.pMerge);
@@ -596,7 +600,7 @@
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.buttonNOClick);
+            this.button1.Click += new System.EventHandler(this.closeClick);
             // 
             // label9
             // 
@@ -611,7 +615,7 @@
             this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
             this.button22.Name = "button22";
             this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.buttonYesClick);
+            this.button22.Click += new System.EventHandler(this.doAnalysisClick);
             // 
             // cMerge
             // 
@@ -761,107 +765,59 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(212)))), ((int)(((byte)(27)))));
             this.label6.Name = "label6";
             // 
-            // toolTip1
-            // 
-            this.toolTip1.ToolTipTitle = "Range of random";
-            // 
             // analysis
             // 
-            this.analysis.Controls.Add(this.comboBox1);
-            this.analysis.Controls.Add(this.textBox2);
+            this.analysis.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.analysis.Controls.Add(this.label21);
+            this.analysis.Controls.Add(this.numericAmount);
+            this.analysis.Controls.Add(this.resultText);
+            this.analysis.Controls.Add(this.buttonSortArray);
+            this.analysis.Controls.Add(this.chosenTypeOfArray);
+            this.analysis.Controls.Add(this.mergeC);
             this.analysis.Controls.Add(this.label18);
-            this.analysis.Controls.Add(this.textBox3);
+            this.analysis.Controls.Add(this.mergeP);
             this.analysis.Controls.Add(this.label20);
             this.analysis.Controls.Add(this.label4);
-            this.analysis.Controls.Add(this.textBox9);
+            this.analysis.Controls.Add(this.bubbleP);
             this.analysis.Controls.Add(this.label16);
             this.analysis.Controls.Add(this.label19);
-            this.analysis.Controls.Add(this.textBox4);
-            this.analysis.Controls.Add(this.textBox8);
-            this.analysis.Controls.Add(this.textBox5);
-            this.analysis.Controls.Add(this.textBox7);
+            this.analysis.Controls.Add(this.selectionC);
+            this.analysis.Controls.Add(this.bubbleC);
+            this.analysis.Controls.Add(this.selectionP);
+            this.analysis.Controls.Add(this.insertP);
             this.analysis.Controls.Add(this.label17);
-            this.analysis.Controls.Add(this.textBox6);
+            this.analysis.Controls.Add(this.insertC);
             resources.ApplyResources(this.analysis, "analysis");
             this.analysis.Name = "analysis";
             // 
-            // textBox2
+            // buttonSortArray
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
+            this.buttonSortArray.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(212)))), ((int)(((byte)(27)))));
+            resources.ApplyResources(this.buttonSortArray, "buttonSortArray");
+            this.buttonSortArray.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.buttonSortArray.Name = "buttonSortArray";
+            this.buttonSortArray.UseVisualStyleBackColor = false;
+            this.buttonSortArray.Click += new System.EventHandler(this.buttonSort);
             // 
-            // textBox3
+            // chosenTypeOfArray
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
+            resources.ApplyResources(this.chosenTypeOfArray, "chosenTypeOfArray");
+            this.chosenTypeOfArray.FormattingEnabled = true;
+            this.chosenTypeOfArray.Items.AddRange(new object[] {
+            resources.GetString("chosenTypeOfArray.Items"),
+            resources.GetString("chosenTypeOfArray.Items1"),
+            resources.GetString("chosenTypeOfArray.Items2")});
+            this.chosenTypeOfArray.Name = "chosenTypeOfArray";
             // 
-            // label4
+            // mergeC
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
-            this.label4.Name = "label4";
-            // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
-            this.label16.Name = "label16";
-            // 
-            // textBox4
-            // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            // 
-            // textBox5
-            // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            // 
-            // label17
-            // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
-            this.label17.Name = "label17";
-            // 
-            // textBox6
-            // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            // 
-            // textBox7
-            // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
+            resources.ApplyResources(this.mergeC, "mergeC");
+            this.mergeC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.mergeC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.mergeC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mergeC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.mergeC.Name = "mergeC";
+            this.mergeC.ReadOnly = true;
             // 
             // label18
             // 
@@ -869,31 +825,15 @@
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
             this.label18.Name = "label18";
             // 
-            // textBox8
+            // mergeP
             // 
-            resources.ApplyResources(this.textBox8, "textBox8");
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            // 
-            // label19
-            // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
-            this.label19.Name = "label19";
-            // 
-            // textBox9
-            // 
-            resources.ApplyResources(this.textBox9, "textBox9");
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
+            resources.ApplyResources(this.mergeP, "mergeP");
+            this.mergeP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.mergeP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.mergeP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mergeP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.mergeP.Name = "mergeP";
+            this.mergeP.ReadOnly = true;
             // 
             // label20
             // 
@@ -901,20 +841,122 @@
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
             this.label20.Name = "label20";
             // 
-            // comboBox1
+            // label4
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
+            this.label4.Name = "label4";
+            // 
+            // bubbleP
+            // 
+            resources.ApplyResources(this.bubbleP, "bubbleP");
+            this.bubbleP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.bubbleP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bubbleP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bubbleP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.bubbleP.Name = "bubbleP";
+            this.bubbleP.ReadOnly = true;
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
+            this.label16.Name = "label16";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
+            this.label19.Name = "label19";
+            // 
+            // selectionC
+            // 
+            resources.ApplyResources(this.selectionC, "selectionC");
+            this.selectionC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.selectionC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.selectionC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.selectionC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.selectionC.Name = "selectionC";
+            this.selectionC.ReadOnly = true;
+            // 
+            // bubbleC
+            // 
+            resources.ApplyResources(this.bubbleC, "bubbleC");
+            this.bubbleC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.bubbleC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bubbleC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bubbleC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.bubbleC.Name = "bubbleC";
+            this.bubbleC.ReadOnly = true;
+            // 
+            // selectionP
+            // 
+            resources.ApplyResources(this.selectionP, "selectionP");
+            this.selectionP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.selectionP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.selectionP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.selectionP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.selectionP.Name = "selectionP";
+            this.selectionP.ReadOnly = true;
+            // 
+            // insertP
+            // 
+            resources.ApplyResources(this.insertP, "insertP");
+            this.insertP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.insertP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.insertP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.insertP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.insertP.Name = "insertP";
+            this.insertP.ReadOnly = true;
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
+            this.label17.Name = "label17";
+            // 
+            // insertC
+            // 
+            resources.ApplyResources(this.insertC, "insertC");
+            this.insertC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(236)))), ((int)(((byte)(228)))));
+            this.insertC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.insertC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.insertC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(191)))), ((int)(((byte)(69)))));
+            this.insertC.Name = "insertC";
+            this.insertC.ReadOnly = true;
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ToolTipTitle = "Range of random";
+            // 
+            // resultText
+            // 
+            resources.ApplyResources(this.resultText, "resultText");
+            this.resultText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(212)))), ((int)(((byte)(27)))));
+            this.resultText.Name = "resultText";
+            // 
+            // numericAmount
+            // 
+            resources.ApplyResources(this.numericAmount, "numericAmount");
+            this.numericAmount.Maximum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            0});
+            this.numericAmount.Name = "numericAmount";
+            // 
+            // label21
+            // 
+            resources.ApplyResources(this.label21, "label21");
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
+            this.label21.Name = "label21";
             // 
             // SortingApp
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.Controls.Add(this.analysis);
             this.Controls.Add(this.bubbleSortPanel);
             this.Controls.Add(this.amountElementsSequence);
             this.Controls.Add(this.further);
@@ -947,6 +989,7 @@
             this.lastWindow.PerformLayout();
             this.analysis.ResumeLayout(false);
             this.analysis.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericAmount)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1028,21 +1071,25 @@
         private System.Windows.Forms.TextBox pMerge;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel analysis;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox chosenTypeOfArray;
+        private System.Windows.Forms.TextBox mergeC;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox mergeP;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox bubbleP;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox selectionC;
+        private System.Windows.Forms.TextBox bubbleC;
+        private System.Windows.Forms.TextBox selectionP;
+        private System.Windows.Forms.TextBox insertP;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox insertC;
+        private System.Windows.Forms.Button buttonSortArray;
+        private System.Windows.Forms.Label resultText;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.NumericUpDown numericAmount;
     }
 }
 
